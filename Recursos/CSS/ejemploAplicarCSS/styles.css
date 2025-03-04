@@ -1,0 +1,65 @@
+/* 1. Centrar */
+main {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+/* 2. Tipo de letra */
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* 3. Spacing */
+
+body {
+  line-height: 1.5;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+/* 4. Color más confortable para leer y contraste */
+
+body {
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+
+/* 5. Color primario de los enlaces */
+
+a {
+  color: #e81c4f;
+}
+
+/* 6. Header */
+
+header {
+  background-color: #263d36;
+  background-image: url("header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+header h1 {
+  color: white;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+/* Estilos de los párrafos */
+p {
+  text-align: justify;
+}
